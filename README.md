@@ -28,7 +28,7 @@ Preprocessing of test set
 <br/>
 `python scripts/preprocessing/preprocess_test.py --formulas data/sample/formulas.txt --test data/sample/test.txt --vocab data/sample/latex_vocab.txt --img data/sample/image_processed/`
 
-### 2. training
+### 2. training model
 `python src/train.py --formulas data/sample/formulas.txt --train data/sample/train.txt  --val data/sample/val.txt --vocab data/sample/latex_vocab.txt`
 
 
