@@ -19,6 +19,7 @@ ME-20K dataset: https://pan.baidu.com/s/1ti1xfCdj6c36yvy_sHld5Q password: nwks
 Preprocessing of training set.
 `python scripts/preprocessing/preprocess_train.py --formulas data/sample/formulas.txt --train data/sample/train.txt --vocab data/sample/latex_vocab.txt --img data/sample/image_processed/`
 
+<br/>
 
 Preprocessing of validation set
 `python scripts/preprocessing/preprocess_val.py --formulas data/sample/formulas.txt --val data/sample/train.txt --vocab data/sample/latex_vocab.txt --img data/sample/image_processed/`
