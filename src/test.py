@@ -20,7 +20,6 @@ from src.model import transformers
 
 warnings.filterwarnings('ignore')
 
-os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 
 
 def getPositionVec(positionList):
