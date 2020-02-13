@@ -22,8 +22,6 @@ from src.model import transformers
 
 warnings.filterwarnings('ignore')
 
-os.environ["CUDA_VISIBLE_DEVICES"] = '1'
-
 
 def setup_seed(seed):
     torch.manual_seed(seed)
