@@ -82,8 +82,8 @@ class Encoder(nn.Module):
         for layer in self.layers:
             x, attn = layer(x, mask, posr)
 
-        # return self.norm(x)
-        return self.norm(x), attn  
+        return self.norm(x)
+        # return self.norm(x), attn  
 
 
 class SublayerConnection(nn.Module):
